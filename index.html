@@ -8,7 +8,7 @@
     <meta name="keywords" content="słowa, kluczowe, wypisane, po, porzecinku" />
     <style>
         body {
-            background: linear-gradient(45deg, #ff3f00, #ff8e50);
+            background: linear-gradient(45deg, #ff6f00, #ff8e53);
             font-family: 'Courier New', Courier, monospace;
         }
         h1 {
@@ -21,6 +21,8 @@
             height: auto;
             margin: 5px;
             cursor: pointer;
+            background-color: black;
+            padding: 10px;
         }
         .gallery {
             text-align: center;
@@ -29,6 +31,9 @@
         .large-image-container {
             text-align: center;
             margin-top: 20px;
+            background-color: black;
+            display: inline-block;
+            padding: 10px;
         }
         .large-image {
             display: none;
@@ -47,19 +52,20 @@
     </script>
 </head>
 <body>
-    <h1>🔥 Wycieczki rowerowe 🔥</h1>
+    <h1>🔥 Signuenja rowerowa 🔥</h1>
     <div style="text-align: center; margin-top: 50px;">
-        <img src="file:///C:/Users/3C_1/Desktop/galeria_001/img/coolbik.png" alt="Steampunk Bicycle Logo" style="width: 300px; height: auto;">
+        <img src="img/coolbik.png" alt="Steampunk Bicycle Logo" style="width: 300px; height: auto;">
     </div>
     <div class="gallery">
-        <img src="file:///C:/Users/3C_1/Desktop/galeria_001/img/sa.jpg" alt="Miniature 1" class="thumbnail" onclick="showImage('file:///C:/Users/3C_1/Desktop/galeria_001/img/la.jpg')">
-        <img src="file:///C:/Users/3C_1/Desktop/galeria_001/img/sd.jpg" alt="Miniature 2" class="thumbnail" onclick="showImage('file:///C:/Users/3C_1/Desktop/galeria_001/img/ld.jpg')">
-        <img src="file:///C:/Users/3C_1/Desktop/galeria_001/img/sf.jpg" alt="Miniature 3" class="thumbnail" onclick="showImage('file:///C:/Users/3C_1/Desktop/galeria_001/img/lf.jpg')">
-        <img src="file:///C:/Users/3C_1/Desktop/galeria_001/img/si.jpg" alt="Miniature 4" class="thumbnail" onclick="showImage('file:///C:/Users/3C_1/Desktop/galeria_001/img/li.jpg')">
-        <img src="file:///C:/Users/3C_1/Desktop/galeria_001/img/sh.jpg" alt="Miniature 5" class="thumbnail" onclick="showImage('file:///C:/Users/3C_1/Desktop/galeria_001/img/lh.jpg')">
+        <img src="img/sa.jpg" alt="Miniature 1" class="thumbnail" onclick="showImage('img/la.jpg')">
+        <img src="img/sd.jpg" alt="Miniature 2" class="thumbnail" onclick="showImage('img/ld.jpg')">
+        <img src="img/sf.jpg" alt="Miniature 3" class="thumbnail" onclick="showImage('img/lf.jpg')">
+        <img src="img/si.jpg" alt="Miniature 4" class="thumbnail" onclick="showImage('img/li.jpg')">
+        <img src="img/sh.jpg" alt="Miniature 5" class="thumbnail" onclick="showImage('img/lh.jpg')">
     </div>
     <div class="large-image-container">
         <img id="largeImage" class="large-image" src="" alt="Full Size Image">
     </div>
 </body>
 </html>
+
